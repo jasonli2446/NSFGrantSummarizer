@@ -231,8 +231,8 @@ def display_summary_table(summaries):
     )
 
 # Streamlit UI
-st.title("Grant Abstract Summarizer")
-st.write("This application uses ChatGPT to summarize grant abstracts based on your search term.")
+st.title("NSF Grant Abstract Summarizer")
+st.write("This application uses ChatGPT to summarize NSF grant abstracts based on your search term.")
 
 # Get the search keyword or ID from user input
 search = st.text_input("Search term or ID:", "")
